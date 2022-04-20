@@ -1,0 +1,63 @@
+/******************* MOBILE *******************/
+
+@media only screen and (max-width: 768px) {
+
+    /*************** COMENTARIOS DE COMPRADORES ***********/
+
+    .comentarios-contenedor {
+        flex-direction: column;
+
+        .comentario {
+            img {
+                margin: 1rem 0rem;
+            }
+        }
+    }
+
+
+    /************* BOTÓN PARA PERSONALIZAR PEDIDO *********/
+
+    .boton {
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+
+        .btn {
+            width: 90%;
+            padding: 15px 30px;
+        }
+    }
+
+    /******************* BOTON FLOTANTE *******************/
+
+    .botonFlotante {
+        img {
+            width: 5rem;
+        }
+    }
+
+    /*************** TINTAS ECOLOGICAS ***********/
+
+    .tintasEcologicas-titulo {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+/******************* TABLET *******************/
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /*************** COMENTARIOS DE COMPRADORES ***********/
+
+    .comentarios-contenedor {
+        flex-direction: column;
+
+        .comentario {
+            img {
+                margin: 0rem 0.3rem 0.5rem 0rem;
+            }
+        }
+    }
+
+}
