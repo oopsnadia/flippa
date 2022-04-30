@@ -3,4 +3,92 @@
     color: $color-titulo;
     font-size: 3rem;
     text-align: end;
+    padding-right: 6px;
 }
+
+.footer-contenedor-pages {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font;
+}
+
+/************************** IMÁGENES DE CADA PÁGINA ******************/
+
+.contenedorGallery-pages {
+    width: 100%;
+    height: auto;
+    display: grid;
+    padding: 5px;
+    margin-bottom: 50px;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-auto-rows: minmax(300px, auto);
+    gap: 5px;
+  }
+
+  .image1 {
+    border: 1px solid rgb(241, 241, 241);
+    grid-row: 1/2;
+    background-color: #f3f3f3;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .image2 {
+    border: 1px solid rgb(241, 241, 241);
+    grid-row: 2/4;
+    grid-column: 1/2;
+    background-color: #f3f3f3;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .image3 {
+    border: 1px solid rgb(241, 241, 241);
+    grid-row: 3/4;
+    grid-column: 2/3;
+    background-color: #f3f3f3;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .image4 {
+    border: 1px solid rgb(241, 241, 241);
+    grid-row: 1/3;
+    grid-column: 2/3;
+    background-color: #f3f3f3;
+    background-size: cover;
+  }
+
+  .image5 {
+    border: 1px solid rgb(241, 241, 241);
+    grid-row: 1/4;
+    grid-column: 3/4;
+    background-color: #f3f3f3;
+    background-size: cover;
+  }
+
+
+  .image-peru1 {
+    background-image: url("../images/8.png");
+  }
+
+  .image-peru2 {
+    background-image: url("../images/6.png");
+  }
+
+  .image-peru3 {
+    background-image: url("../images/7.png");
+  }
+
+  .image-peru4 {
+    background-image: url("../images/6.png");
+  }
+
+  .image-peru5 {
+    background-image: url("../images/6.png");
+  }
