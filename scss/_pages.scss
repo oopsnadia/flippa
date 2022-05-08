@@ -19,7 +19,7 @@
 
 /************************** IMÁGENES DE CADA PÁGINA ******************/
 
-.contenedorGallery-pages {
+.contenedorGallery-brave {
     width: 100%;
     height: auto;
     display: grid;
@@ -73,22 +73,42 @@
   }
 
 
+  .image-brave1 {
+    background-image: url("../images/3.png");
+  }
+
+  .image-brave2 {
+    background-image: url("../images/1.png");
+  }
+
+  .image-brave3 {
+    background-image: url("../images/9.png");
+  }
+
+  .image-brave4 {
+    background-image: url("../images/4.png");
+  }
+
+  .image-brave5 {
+    background-image: url("../images/2-2.jpg");
+  }
+
   .image-peru1 {
-    background-image: url("../images/8.png");
+    background-image: url("../images/6.png");
   }
 
   .image-peru2 {
-    background-image: url("../images/6.png");
+    background-image: url("../images/5-2.png");
   }
+  
 
   .image-peru3 {
-    background-image: url("../images/7.png");
+    background-image: url("../images/8.png");
   }
+  
 
   .image-peru4 {
-    background-image: url("../images/6.png");
+    background-image: url("../images/7.png");
   }
-
-  .image-peru5 {
-    background-image: url("../images/6.png");
-  }
+  
+  

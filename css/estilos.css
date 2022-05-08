@@ -38,13 +38,13 @@ body {
 }
 
 #nav1 li a {
-  color: rgb(197, 197, 197);
+  color: #222222;
   list-style-type: none;
   text-decoration: none;
   padding: 20px;
 }
 #nav1 li a:hover {
-  color: rgb(221, 178, 223);
+  color: #705977;
 }
 #nav1 ul li {
   display: inline-block;
@@ -140,7 +140,7 @@ body {
 .tintasEcologicas-contenedor {
   width: 100%;
   font-family: "Roboto", sans serif;
-  color: rgb(197, 197, 197);
+  color: #222222;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,7 +156,7 @@ body {
 
 .fas {
   font-size: 60px;
-  color: rgb(124, 153, 124);
+  color: #705977;
 }
 
 .tintasEcologicas {
@@ -210,7 +210,7 @@ body {
 .boton .btn {
   font-family: "Roboto", sans serif;
   color: #fff;
-  background-color: rgb(221, 178, 223);
+  background-color: #705977;
   border: none;
   font-size: 20px;
   letter-spacing: 3px;
@@ -236,7 +236,7 @@ body {
   width: 90%;
   margin: 0px auto;
   margin-top: 20px;
-  border-top: 2px solid rgb(197, 197, 197);
+  border-top: 2px solid #222222;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -247,12 +247,12 @@ body {
 .footer-titulo {
   margin-top: 8px;
   font-size: 22px;
-  color: rgb(197, 197, 197);
+  color: #222222;
 }
 
 .footer-iconos a {
   font-size: 50px;
-  color: rgb(221, 178, 223);
+  color: #705977;
   height: 45px;
   width: 45px;
   display: inline-block;
@@ -262,7 +262,7 @@ body {
   transition: all 0.3s ease;
 }
 .footer-iconos a:hover {
-  color: rgb(221, 178, 223);
+  color: #705977;
   transform: scale(1.2);
 }
 
@@ -328,7 +328,7 @@ body {
 }
 
 /************************** IMÁGENES DE CADA PÁGINA ******************/
-.contenedorGallery-pages {
+.contenedorGallery-brave {
   width: 100%;
   height: auto;
   display: grid;
@@ -381,24 +381,40 @@ body {
   background-size: cover;
 }
 
+.image-brave1 {
+  background-image: url("../images/3.png");
+}
+
+.image-brave2 {
+  background-image: url("../images/1.png");
+}
+
+.image-brave3 {
+  background-image: url("../images/9.png");
+}
+
+.image-brave4 {
+  background-image: url("../images/4.png");
+}
+
+.image-brave5 {
+  background-image: url("../images/2-2.jpg");
+}
+
 .image-peru1 {
-  background-image: url("../images/8.png");
+  background-image: url("../images/6.png");
 }
 
 .image-peru2 {
-  background-image: url("../images/6.png");
+  background-image: url("../images/5-2.png");
 }
 
 .image-peru3 {
-  background-image: url("../images/7.png");
+  background-image: url("../images/8.png");
 }
 
 .image-peru4 {
-  background-image: url("../images/6.png");
-}
-
-.image-peru5 {
-  background-image: url("../images/6.png");
+  background-image: url("../images/7.png");
 }
 
 /*# sourceMappingURL=estilos.css.map */
