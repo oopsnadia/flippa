@@ -3,6 +3,6 @@ Sitio web estático realizado para un emprendimiento de comercialización de ven
 
 ## Tareas a completar
 * Hacer el responsive de la galeria de imagenes
-* Definir el diseño de preguntas frecuentes
-* En cada página de las temáticas, hay que agregar un ícono de flechita, indicando que puede volver hacia la página anterior, es decir al inicio. No pude hacer funcionar el ícono que había encontrado.
 * El menú hamburguesa funciona, solo que por el momento queda de color blanco en la esquina superior derecha.
+* Agregar el link verdadero a los links de Whatsapp y al boton de pedidos personalizados con su respectivo mensaje
+* Agregar el texto en las preguntas frecuentes
