@@ -13,28 +13,16 @@ body {
   position: fixed;
   bottom: 1rem;
   right: 1rem; }
-  .botonFlotante img {
+  .botonFlotante a img {
     transition: transform 0.2s;
     transform: scale(1, 1) ease;
-    width: 70px;
+    width: 5rem;
     object-fit: cover; }
-    .botonFlotante img:hover {
-      transform: scale(1.2, 1.2); }
-
-.botonFlotante2 {
-  position: fixed;
-  bottom: 6rem;
-  right: 1rem; }
-  .botonFlotante2 img {
-    transition: transform 0.2s;
-    transform: scale(1, 1) ease;
-    width: 70px;
-    object-fit: cover; }
-    .botonFlotante2 img:hover {
+    .botonFlotante a img:hover {
       transform: scale(1.2, 1.2); }
 
 /******************* NAV  *******************/
-.header {
+header {
   background-color: #fff;
   font-family: "Roboto", sans serif;
   font-size: 15px;
@@ -43,13 +31,16 @@ body {
   z-index: 3;
   width: 100%; }
 
+.navbar-toggler-right {
+  background-color: #CDC0D1 !important; }
+
 #nav1 li a {
-  color: #c5c5c5;
+  color: #222222;
   list-style-type: none;
   text-decoration: none;
   padding: 20px; }
   #nav1 li a:hover {
-    color: #ddb2df; }
+    color: #705977; }
 
 #nav1 ul li {
   display: inline-block; }
@@ -77,21 +68,13 @@ body {
   z-index: 1;
   border-top: 5px solid #ddb2df; }
   .dropdown-content a {
-    color: #9956ad !important;
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block; }
     .dropdown-content a:hover {
       background-color: #9956ad;
       color: white !important; }
-
-/************************** BOTON ATRAS ******************/
-.gallery p a {
-  margin-right: 0.5rem;
-  color: #9956ad;
-  transition: color 0.2s; }
-  .gallery p a:hover {
-    color: #ddb2df; }
 
 /************************** IMÁGENES PRINCIPALES ******************/
 .contenedorGallery {
@@ -140,7 +123,7 @@ body {
 .tintasEcologicas-contenedor {
   width: 100%;
   font-family: "Roboto", sans serif;
-  color: #c5c5c5;
+  color: #222222;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,7 +137,7 @@ body {
 
 .fas {
   font-size: 60px;
-  color: #7c997c; }
+  color: #705977; }
 
 .tintasEcologicas {
   display: flex;
@@ -199,7 +182,7 @@ body {
   .boton .btn {
     font-family: "Roboto", sans serif;
     color: #fff;
-    background-color: #ddb2df;
+    background-color: #705977;
     border: none;
     font-size: 20px;
     letter-spacing: 3px;
@@ -215,7 +198,6 @@ body {
       color: #000;
       text-decoration: none; }
 
-/************* BOTON TOGGLE *********/
 /************* PREGUNTAS FRECUENTES *********/
 .preguntasFrecuentes {
   width: 60%;
@@ -224,12 +206,12 @@ body {
   .preguntasFrecuentes .preguntasFrecuentes__secciones {
     margin-bottom: 5rem; }
     .preguntasFrecuentes .preguntasFrecuentes__secciones h3 {
-      color: #ddb2df;
+      color: #705977;
       font-weight: bolder;
       line-height: 1.2;
       font-size: 1.8rem; }
     .preguntasFrecuentes .preguntasFrecuentes__secciones p {
-      color: #c5c5c5;
+      color: #222222;
       font-size: 20px; }
 
 /**************** FOOTER *****************/
@@ -237,7 +219,7 @@ body {
   width: 90%;
   margin: 0px auto;
   margin-top: 20px;
-  border-top: 2px solid #c5c5c5;
+  border-top: 2px solid #222222;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -247,11 +229,11 @@ body {
 .footer-titulo {
   margin-top: 8px;
   font-size: 22px;
-  color: #c5c5c5; }
+  color: #222222; }
 
 .footer-iconos a {
   font-size: 50px;
-  color: #ddb2df;
+  color: #705977;
   height: 45px;
   width: 45px;
   display: inline-block;
@@ -260,50 +242,21 @@ body {
   margin: 30px 5px 30px 0;
   transition: all 0.3s ease; }
   .footer-iconos a:hover {
-    color: #ddb2df;
+    color: #705977;
     transform: scale(1.2); }
-
-/******************* MOBILE *******************/
-@media only screen and (max-width: 768px) {
-  /*************** COMENTARIOS DE COMPRADORES ***********/
-  .comentarios-contenedor {
-    flex-direction: column; }
-    .comentarios-contenedor .comentario img {
-      margin: 1rem 0rem; }
-  /************* BOTÓN PARA PERSONALIZAR PEDIDO *********/
-  .boton {
-    display: flex;
-    justify-content: center;
-    padding: 40px; }
-    .boton .btn {
-      width: 90%;
-      padding: 15px 30px; }
-  /******************* BOTON FLOTANTE *******************/
-  .botonFlotante img {
-    width: 5rem;
-    display: none; }
-  .botonFlotante2 img {
-    width: 5rem;
-    display: none; }
-  /*************** TINTAS ECOLOGICAS ***********/
-  .tintasEcologicas-titulo {
-    font-size: 30px;
-    text-align: center; } }
-
-/******************* TABLET *******************/
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  /*************** COMENTARIOS DE COMPRADORES ***********/
-  .comentarios-contenedor {
-    flex-direction: column; }
-    .comentarios-contenedor .comentario img {
-      margin: 0rem 0.3rem 0.5rem 0rem; } }
 
 /******************* TITULOS DE LOS MAS BUSCADOS *******************/
 .titulo-paginas {
   color: #9956ad;
   font-size: 3rem;
   text-align: end;
-  padding-right: 6px; }
+  padding-right: 8px; }
+  .titulo-paginas a {
+    color: #9956ad;
+    transition: color 0.2s;
+    margin-right: 0.5rem; }
+    .titulo-paginas a:hover {
+      color: #ddb2df; }
 
 .footer-contenedor-pages {
   width: 90%;
@@ -316,7 +269,7 @@ body {
   font-family: "Roboto", sans serif; }
 
 /************************** IMÁGENES DE CADA PÁGINA ******************/
-.contenedorGallery-pages {
+.contenedorGallery-brave {
   width: 100%;
   height: auto;
   display: grid;
@@ -363,17 +316,63 @@ body {
   background-color: #f3f3f3;
   background-size: cover; }
 
+.image-brave1 {
+  background-image: url("../images/3.png"); }
+
+.image-brave2 {
+  background-image: url("../images/1.png"); }
+
+.image-brave3 {
+  background-image: url("../images/9.png"); }
+
+.image-brave4 {
+  background-image: url("../images/4.png"); }
+
+.image-brave5 {
+  background-image: url("../images/2-2.jpg"); }
+
 .image-peru1 {
-  background-image: url("../images/8.png"); }
+  background-image: url("../images/6.png"); }
 
 .image-peru2 {
-  background-image: url("../images/6.png"); }
+  background-image: url("../images/5-2.png"); }
 
 .image-peru3 {
-  background-image: url("../images/7.png"); }
+  background-image: url("../images/8.png"); }
 
 .image-peru4 {
-  background-image: url("../images/6.png"); }
+  background-image: url("../images/7.png"); }
 
-.image-peru5 {
-  background-image: url("../images/6.png"); }
+/******************* MOBILE *******************/
+@media only screen and (max-width: 768px) {
+  /*************** GRID ***********/
+  /*************** COMENTARIOS DE COMPRADORES ***********/
+  .comentarios-contenedor {
+    flex-direction: column; }
+    .comentarios-contenedor .comentario img {
+      margin: 1rem 0rem; }
+  /************* BOTÓN PARA PERSONALIZAR PEDIDO *********/
+  .boton {
+    display: flex;
+    justify-content: center;
+    padding: 40px; }
+    .boton .btn {
+      width: 90%;
+      padding: 15px 30px; }
+  /******************* BOTON FLOTANTE *******************/
+  .botonFlotante img {
+    width: 5rem;
+    display: none; }
+  /*************** TINTAS ECOLOGICAS ***********/
+  .tintasEcologicas-titulo {
+    font-size: 30px;
+    text-align: center; } }
+
+/******************* TABLET *******************/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /*************** GRID ***********/
+  /*************** COMENTARIOS DE COMPRADORES ***********/
+  .comentarios-contenedor {
+    flex-direction: column; }
+    .comentarios-contenedor .comentario img {
+      margin: 0rem 0.3rem 0.5rem 0rem; } }

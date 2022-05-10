@@ -5,38 +5,23 @@
   bottom: 1rem;
   right: 1rem;
 
-  img {
-    transition: transform 0.2s;
-    transform: scale(1, 1) ease;
-    width: 70px;
-    object-fit: cover;
+  a {
+    img {
+      transition: transform 0.2s;
+      transform: scale(1, 1) ease;
+      width: 5rem;
+      object-fit: cover;
 
-    &:hover {
-      transform: scale(1.2, 1.2);
-    }
-  }
-}
-
-.botonFlotante2 {
-  position: fixed;
-  bottom: 6rem;
-  right: 1rem;
-    
-  img {
-    transition: transform 0.2s;
-    transform: scale(1, 1) ease;
-    width: 70px;
-    object-fit: cover;
-
-    &:hover {
-      transform: scale(1.2, 1.2);
+      &:hover {
+        transform: scale(1.2, 1.2);
+      }
     }
   }
 }
 
 /******************* NAV  *******************/
 
-.header {
+header {
   background-color: $color-bg;
   font-family: $font;
   font-size: 15px;
@@ -44,6 +29,10 @@
   letter-spacing: 1px;
   z-index: 3;
   width: 100%;
+}
+
+.navbar-toggler-right {
+  background-color: $toggle-button-color  !important;
 }
 
 #nav1 {
@@ -82,7 +71,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
-  
+
   &:hover {
     .dropdown-content {
       display: block;
@@ -101,35 +90,15 @@
   border-top: 5px solid $dropdown-border-color;
 
   a {
-    color: $color-titulo !important;
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    
+
 
     &:hover {
       background-color: $color-titulo;
       color: white !important;
-    }
-  }
-}
-
-/************************** BOTON ATRAS ******************/
-
-.gallery
-{
-  p
-  {
-    a
-    {
-      margin-right: 0.5rem;
-      color: $color-titulo;
-      transition: color 0.2s;
-
-      &:hover
-      {
-        color:$color2;
-      }
     }
   }
 }
@@ -140,7 +109,7 @@
   width: 100%;
   height: auto;
   display: grid;
-  padding:5px;
+  padding: 5px;
   margin-bottom: 50px;
   grid-template-columns: 1fr 300px 300px;
   grid-auto-rows: minmax(300px, auto);
@@ -205,7 +174,7 @@
 
 .fas {
   font-size: 60px;
-  color: $color3;
+  color: $color2;
 }
 
 .tintasEcologicas {
@@ -288,8 +257,6 @@
   }
 }
 
-/************* BOTON TOGGLE *********/
-
 /************* PREGUNTAS FRECUENTES *********/
 .preguntasFrecuentes {
 
@@ -297,20 +264,17 @@
   margin: 0 auto;
   text-align: center;
 
-  .preguntasFrecuentes__secciones
-  {
+  .preguntasFrecuentes__secciones {
     margin-bottom: 5rem;
 
-    h3
-    {
-      color:$color2;
+    h3 {
+      color: $color2;
       font-weight: bolder;
       line-height: 1.2;
       font-size: 1.8rem;
     }
 
-    p
-    {
+    p {
       color: $color1;
       font-size: 20px;
     }

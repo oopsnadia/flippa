@@ -2,6 +2,8 @@
 
 @media only screen and (max-width: 768px) {
 
+    /*************** GRID ***********/
+
     /*************** COMENTARIOS DE COMPRADORES ***********/
 
     .comentarios-contenedor {
@@ -37,13 +39,6 @@
         }
     }
 
-    .botonFlotante2 {
-        img {
-            width: 5rem;
-            display: none;
-        }
-    }
-
     /*************** TINTAS ECOLOGICAS ***********/
 
     .tintasEcologicas-titulo {
@@ -56,6 +51,8 @@
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
+    /*************** GRID ***********/
+
     /*************** COMENTARIOS DE COMPRADORES ***********/
 
     .comentarios-contenedor {
@@ -67,5 +64,4 @@
             }
         }
     }
-
 }
