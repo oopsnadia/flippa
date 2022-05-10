@@ -3,31 +3,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: #fff;
-  scroll-behavior: smooth;
 }
 
 /******************* BOTON FLOTANTE *******************/
 .botonFlotante {
   position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
+  bottom: 1rem;
+  right: 1rem;
 }
-.botonFlotante img {
+.botonFlotante a img {
   transition: transform 0.2s;
   transform: scale(1, 1) ease;
-  width: 80px;
+  width: 5rem;
   object-fit: cover;
 }
-.botonFlotante img:hover {
+.botonFlotante a img:hover {
   transform: scale(1.2, 1.2);
 }
 
 /******************* NAV  *******************/
-.header {
+header {
   background-color: #fff;
   font-family: "Roboto", sans serif;
   font-size: 15px;
@@ -35,6 +35,10 @@ body {
   letter-spacing: 1px;
   z-index: 3;
   width: 100%;
+}
+
+.navbar-toggler-right {
+  background-color: #CDC0D1 !important;
 }
 
 #nav1 li a {
@@ -230,7 +234,26 @@ body {
   text-decoration: none;
 }
 
-/************* BOTON TOGGLE *********/
+/************* PREGUNTAS FRECUENTES *********/
+.preguntasFrecuentes {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.preguntasFrecuentes .preguntasFrecuentes__secciones {
+  margin-bottom: 5rem;
+}
+.preguntasFrecuentes .preguntasFrecuentes__secciones h3 {
+  color: #705977;
+  font-weight: bolder;
+  line-height: 1.2;
+  font-size: 1.8rem;
+}
+.preguntasFrecuentes .preguntasFrecuentes__secciones p {
+  color: #222222;
+  font-size: 20px;
+}
+
 /**************** FOOTER *****************/
 .footer-contenedor {
   width: 90%;
@@ -266,55 +289,20 @@ body {
   transform: scale(1.2);
 }
 
-/******************* MOBILE *******************/
-@media only screen and (max-width: 768px) {
-  /*************** COMENTARIOS DE COMPRADORES ***********/
-  .comentarios-contenedor {
-    flex-direction: column;
-  }
-  .comentarios-contenedor .comentario img {
-    margin: 1rem 0rem;
-  }
-
-  /************* BOTÓN PARA PERSONALIZAR PEDIDO *********/
-  .boton {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-  }
-  .boton .btn {
-    width: 90%;
-    padding: 15px 30px;
-  }
-
-  /******************* BOTON FLOTANTE *******************/
-  .botonFlotante img {
-    width: 5rem;
-  }
-
-  /*************** TINTAS ECOLOGICAS ***********/
-  .tintasEcologicas-titulo {
-    font-size: 30px;
-    text-align: center;
-  }
-}
-/************* GRID DE FOTOS ***********/
-/******************* TABLET *******************/
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  /*************** COMENTARIOS DE COMPRADORES ***********/
-  .comentarios-contenedor {
-    flex-direction: column;
-  }
-  .comentarios-contenedor .comentario img {
-    margin: 0rem 0.3rem 0.5rem 0rem;
-  }
-}
 /******************* TITULOS DE LOS MAS BUSCADOS *******************/
 .titulo-paginas {
   color: #9956ad;
   font-size: 3rem;
   text-align: end;
-  padding-right: 6px;
+  padding-right: 8px;
+}
+.titulo-paginas a {
+  color: #9956ad;
+  transition: color 0.2s;
+  margin-right: 0.5rem;
+}
+.titulo-paginas a:hover {
+  color: #ddb2df;
 }
 
 .footer-contenedor-pages {
@@ -416,6 +404,57 @@ body {
 
 .image-peru4 {
   background-image: url("../images/7.png");
+}
+
+/******************* MOBILE *******************/
+@media only screen and (max-width: 768px) {
+  /*************** GRID ***********/
+  /*************** COMENTARIOS DE COMPRADORES ***********/
+  .comentarios-contenedor {
+    flex-direction: column;
+  }
+  .comentarios-contenedor .comentario img {
+    margin: 1rem 0rem;
+  }
+
+  /************* BOTÓN PARA PERSONALIZAR PEDIDO *********/
+  .boton {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  .boton .btn {
+    width: 90%;
+    padding: 15px 30px;
+  }
+
+  /******************* BOTON FLOTANTE *******************/
+  .botonFlotante img {
+    width: 5rem;
+    display: none;
+  }
+
+  /*************** TINTAS ECOLOGICAS ***********/
+  .tintasEcologicas-titulo {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+/************* GRID DE FOTOS ***********/
+/******************* TABLET *******************/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /*************** GRID ***********/
+  .contenedorGallery {
+    grid-template-rows: auto;
+  }
+
+  /*************** COMENTARIOS DE COMPRADORES ***********/
+  .comentarios-contenedor {
+    flex-direction: column;
+  }
+  .comentarios-contenedor .comentario img {
+    margin: 0rem 0.3rem 0.5rem 0rem;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

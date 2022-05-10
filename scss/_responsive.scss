@@ -2,6 +2,8 @@
 
 @media only screen and (max-width: 768px) {
 
+    /*************** GRID ***********/
+
     /*************** COMENTARIOS DE COMPRADORES ***********/
 
     .comentarios-contenedor {
@@ -33,6 +35,7 @@
     .botonFlotante {
         img {
             width: 5rem;
+            display: none;
         }
     }
 
@@ -45,11 +48,18 @@
 }
 
     /************* GRID DE FOTOS ***********/
+    
 
 
 /******************* TABLET *******************/
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /*************** GRID ***********/
+
+    .contenedorGallery {
+        grid-template-rows: auto;
+      }
 
     /*************** COMENTARIOS DE COMPRADORES ***********/
 
@@ -62,5 +72,4 @@
             }
         }
     }
-
 }
